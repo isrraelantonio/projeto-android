@@ -34,7 +34,7 @@
 }
 
 body{
-    background-color:var(--cor0);
+    background-color: white;
     font-family: var(--fonte-padrao);
 }
 
@@ -77,15 +77,13 @@ nav{
     
 }
 nav  a {
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, #a3a1a1, var(--cor1), transparent);
     color: white;
     padding: 10px 10px;
     text-decoration: none;
-    font-weight: ;
     transition: 0.5s;
     width: 100px;
     text-align: center;
-    color: ;
     border-radius: 5px;
 }
 nav  a:not(:last-child){
@@ -102,7 +100,7 @@ nav  a:hover{
 main{
     min-width: 300px;
     width: 60%;
-    background-color: var(--cor0);
+    background-color: var(--cor);
     margin: auto;
     padding: 20px;
     border-radius: 0px 0px 10px 10px;
@@ -120,7 +118,7 @@ main img.pequena{
 }
 div.video{
     margin: 0px -20px 30px -20px;
-    background-color: var(--cor5);
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     position: relative;
     padding-bottom: 58%;
@@ -148,7 +146,7 @@ main h2 {
     font-family: var(--fote-android);
     color: var(--cor5);
     font-size: 1.5em;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to right, #a3a1a1, var(--cor1), transparent);
     text-indent: 10px;
     
  }
@@ -180,7 +178,7 @@ main  a{
  main a:hover{
     background-color: var(--cor5);
     color: white;
-    text-decoration: underline;
+   
    
  }
  a.externo::after{
@@ -190,10 +188,12 @@ main  a{
  }
  aside{
    
-    background-color: var(--cor1);
+    background-color: rgb(135, 131, 131);
     padding: 2px 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    color: aliceblue;
+   
  }
  aside ul{
     list-style-position: inside;
@@ -203,7 +203,7 @@ main  a{
  }
  aside h3{
     color: white;
-    background-color: var(--cor4);
+    background-color: rgb(0, 0, 0);
     padding: 7px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
@@ -213,7 +213,7 @@ main  a{
 
  }
  footer{
-    background-color: var(--cor5);
+    background-image: url(../imagens/Site\ para\ Link\ na\ Bio\ Tecnologia\ e\ Jogos\ Escuro\ Simples\ Azul-escuro.png);
     color: white;
     margin-top: 20px;
     padding: 6px 0px;
