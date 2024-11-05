@@ -1,18 +1,14 @@
 @charset "utf-8";
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 900px){
     main{
         
         width: 80%;
+        font-size: 0.9em;
        
     }
     header{
         min-height: 120px;
-        background-image: url(../imagens/Site\ para\ Link\ na\ Bio\ Tecnologia\ e\ Jogos\ Escuro\ Simples\ Azul-escuro.png);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-size: contain;
-       
     }
     header h1{
     
@@ -24,8 +20,8 @@
     }
     nav{
        
-        background-color: rgb(0, 0, 0);
-        color:;
+        background-color: var(--cor1);
+        display: flex;
        
         
     }
@@ -46,10 +42,20 @@
         font-size: 1.3em;
      }
      main h2 {
-         
          font-size: 1em;
-        
-         
 } 
+    aside{
+    font-size: 0.8em;
+}
+    aside ul{ 
+    padding: 9px;
+   
+ }
+    footer{
+    height: 30px;
+   
+   
+
+ }
     
 }
